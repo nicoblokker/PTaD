@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+  freeze: auto  
+
+website:
+  title: "Political Texts as Data"
+  search: false
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/nicoblokker
+      # - icon: twitter
+      #   href: https://twitter.com
+format:
+  html:
+    theme: simplex
+    css: styles.css
+
+editor: source
+
