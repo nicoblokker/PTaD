@@ -1,2 +1,5 @@
 /.quarto/
 .Rproj.user
+search.json
+/.docs/search.json
+./docs/search.json
